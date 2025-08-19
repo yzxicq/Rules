@@ -1,0 +1,30 @@
+name: Sync fork with upstream
+
+on:
+  schedule:
+    - cron: '0 18 * * *' # 每天 UTC 0:00 执行
+  workflow_dispatch:     # 手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout fork
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Add upstream remote
+        run: git remote add upstream https://github.com/Lanlan13-14/Rules.git
+
+      - name: Fetch upstream
+        run: git fetch upstream
+
+      - name: Merge upstream/main into local main
+        run: |
+          git checkout main
+          git merge upstream/main --allow-unrelated-histories
+          git push origin main
