@@ -9,12 +9,6 @@
 > 中国大陆用户使用请遵守本国法律法规
 >
 > Mainland China users please abide by the laws and regulations of your country.
->
-> 因使用Mihomo Party而造成的任何bug与错误不提供任何支持issue和讨论都将被直接关闭
-> 
-> No support is provided for Mihomo Party-related bugs or errors. all such issues and discussions will be closed immediately.
->
-> Мы не предоставляем поддержку по вопросам, связанным с использованием Mihomo Party. Все соответствующие обращения и обсуждения будут немедленно закрыты без исключений.
 
 ## 免责申明/Disclaimer
 
@@ -39,13 +33,19 @@
 
 - Stash如果需要去广告，请使用mitm的方式而非使用本项目的完整规则
 
-- 订阅更新默认走“🟢 直连”,如需要可手动改成节点选择
+- 订阅更新默认走“故障转移”,如需要可手动改成节点选择
 
 - 考虑到部分机场热门地区节点有高低倍率之分，根据普遍情况设置了自动选择组（仅保留标准节点）和手动组（全部节点）
 
 - 本项目提供适用于Mihomo/Stash的[游戏规则](https://github.com/Lanlan13-14/Rules/tree/main/rules%2FGame)，但考虑到这类规则的特殊性，需要请自行添加
 
+- 游戏加速推荐使用[MelodyGameAcc](https://github.com/JohnsonRan/MelodyGameAccPublic)
+
+- 梅林clash请使用Sub-store展开锚点后再使用
+
 - 本项目的订阅转换模板/yaml文件是参考 ACL4SSR，Aethersailor等规则修改而来，基于作者个人理解做出的修改，另外我的更新不固定建议每2-3周下载一次配置文件替换，以获得最佳体验/也可配合Substore一同使用达到如同使用订阅链接的效果(每次更新订阅即会自动拉取配置文件更新，无需手动下载上传)，同时感谢各位的大力支持
+
+- 因为stash对于mihomo部分参数支持不佳，导致stash用户使用部分选项视觉效果不佳，将尽快修复
 
 #### Substore部署使用教程，高级玩法请将Substore更新至最新版本，注意更新前请先备份以防止配置丢失，另外注意请确保有文件页面后再进行操作
 
@@ -88,18 +88,29 @@
 >
 <a href="https://github.com/xishang0128/sparkle"><img src="https://raw.githubusercontent.com/Lanlan13-14/Icon-for-webui/refs/heads/main/mihomo.png" width="32" style="vertical-align:middle;"/> Sparkle</a>
 >
+>
+<a href="https://github.com/INKCR0W/sparkle"><img src="https://raw.githubusercontent.com/Lanlan13-14/Icon-for-webui/refs/heads/main/mihomo.png" width="32" style="vertical-align:middle;"/> Sparkle Fork</a>
+>
 <a href="https://github.com/chen08209/FlClash"><img src="https://raw.githubusercontent.com/Lanlan13-14/Icon-for-webui/refs/heads/main/flclash.png" width="32" style="vertical-align:middle;"/> Flclash</a>
 >
-<a href="https://github.com/pluralplay/FlClashX"><img src="https://raw.githubusercontent.com/Lanlan13-14/Icon-for-webui/refs/heads/main/flclash.png" width="32" style="vertical-align:middle;"/> FlclashX</a>
+<a href="https://github.com/appshubcc/Bettbox"><img src="https://raw.githubusercontent.com/appshubcc/Bettbox/refs/heads/main/assets/images/icon_black.png" width="32" style="vertical-align:middle;"/> Bettbox</a>
 >
+<a href="https://github.com/pluralplay/FlClashX"><img src="https://raw.githubusercontent.com/Lanlan13-14/Icon-for-webui/refs/heads/main/flclashx.png" width="32" style="vertical-align:middle;"/> FlclashX</a>
+>
+>
+•MacOS
+>
+<a href="https://github.com/Sitoi/ClashBar"><img src="https://raw.githubusercontent.com/Sitoi/ClashBar/refs/heads/main/imgs/logo.png" width="32" style="vertical-align:middle;"/> ClashBar</a>
 >
 •Android
 >
-<a href="https://github.com/KaringX/clashmi"><img src="https://raw.githubusercontent.com/Lanlan13-14/Icon-for-webui/refs/heads/main/clashmi.png" width="32" style="vertical-align:middle;"/> ClashMi</a>
->
 <a href="https://github.com/chen08209/FlClash"><img src="https://raw.githubusercontent.com/Lanlan13-14/Icon-for-webui/refs/heads/main/flclash.png" width="32" style="vertical-align:middle;"/> Flclash</a>
 >
+<a href="https://github.com/appshubcc/Bettbox"><img src="https://raw.githubusercontent.com/appshubcc/Bettbox/refs/heads/main/assets/images/icon_black.png" width="32" style="vertical-align:middle;"/> Bettbox</a>
+>
 <a href="https://github.com/pluralplay/FlClashX"><img src="https://raw.githubusercontent.com/Lanlan13-14/Icon-for-webui/refs/heads/main/flclash.png" width="32" style="vertical-align:middle;"/> FlclashX</a>
+>
+<a href="https://github.com/KaringX/clashmi"><img src="https://raw.githubusercontent.com/Lanlan13-14/Icon-for-webui/refs/heads/main/clashmi.png" width="32" style="vertical-align:middle;"/> ClashMi</a>
 >
 >
 •iOS
